@@ -11,10 +11,324 @@
 <body>
     <h3>Welcome in development tips and tricks</h3>
     <h2>Khaled Dev</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis blanditiis incidunt sint hic placeat magnam
-        soluta. Et esse sequi consectetur. Temporibus ipsum, tenetur cum iure assumenda doloremque maxime ab pariatur?
-    </p>
+    Astuces
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    pour Visual Studio j'utilise mon compte khali_dou@hotmail.com
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    reinstall all packages
+    Update-Package -reinstall
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    Sur notePad++
+    Grader 4 chiffre aprés la virgule ou le point ds un nombre decimal
+    rechercher ([-+]?[0-9]*)(\.)([0-9]{4})([0-9]+)
+    remplacer $1$2$3
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    Merger plusieurs fichiers ds un fichier
+    copy *.csv newfile.csv
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    convert shape to geoJson
+    https://www.statsilk.com/maps/convert-esri-shapefile-map-geojson-format
+    https://mapshaper.org/
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    Word GeoJson
+    https://github.com/johan/world.geo.json
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    Api interface documentation
+    https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-5.0&tabs=visual-studio&fbclid=IwAR2bD1a0rHjUT8YytScUmVhZtNgbYvAbjEm-OGfbSwGZ_3oXevIPgBR-HFc
+    /// <summary>
+        /// Summary here
+        /// </summary>
+    ///
+    <param name="id">
+    </param ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo NotePad++
+        open the current tab in a new window. Hit Alt+F6. This opens the current tab in a new window.
+        ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo Cmd Migration
+        database from Github example dotnet ef migrations add ApplicationDbContext.cs
+        ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo Tw run
+        [grabb_eng].dbo.processGrabbTw "last friday"
+        ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo SQL Server
+        Express local connection string <add name="DatabaseContext" providerName="System.Data.SqlClient"
+        connectionString="data source=DESKTOP-MIL\SQLEXPRESS;initial catalog=mailbox_qbo;Trusted_Connection=True;" />
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    delete temp table
+    IF OBJECT_ID('tempdb..#tTab', 'U') IS NOT NULL
+    DROP TABLE #tTab;
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    Sql server Astuces requete
+    SQL Query Optimization
+    https://tvkoushik.medium.com/mastering-sql-query-optimization-622cc6addef2
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    ;THROW 55000, 'Custom throw exception.', 1;
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    Pyhton
+    The selenium package is used to automate web browser interaction from Python.
+    Le package selenium est utilisé pour automatiser l'interaction du navigateur Web à partir de Python.
+    https://selenium-python.readthedocs.io/
+    reference https://selenium-python.readthedocs.io/getting-started.html
+    ---------------------------------------------------------------------------------
+    autoit is the same, but it for desktop application
+    https://pypi.python.org/pypi/PyAutoIt/0.3
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    sql server partition
+    ,row_number() over (partition by corporationId order by corporationId, effectiveDate desc) as iCnt
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    ArangoDb
+    user : root
+    pw : 123456
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    Voici comment executer un script py en spécifaint son propre interpréteur
+    cd /d "path to myScript.py"
+    :: Specify /d to change the drive also.
+    "path to python.exe" myScript.py
+    e.g
+    cd /d D:\workspace\Cours\Python
+    "C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS02\PYTHON_SERVICES\python.exe" testSql.py
+    ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    Lorsqu'on un Str avec des char <'> ou <"> utilise `` (composer AltGr + ^ de fois)
+            e.g `Lorsqu'on utilise cette expression avec ' ou " `
+            ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            Javascript Fonction anonyme (closure )
+            (function (){
+            //.....
+            })fonc anonyme sans execution
 
-</body>
+            (function (){
+            //.....
+            })()// fonc anonyme avec execution
+
+            (()=>{
+            //.....
+            })()// fonc anonyme avec execution
+            ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            Javascript utilisation des Promise (Promesse)
+            const calcul = (n, m) => {
+            //declare & return Promise
+            return new Promise((resolve, reject)=>{
+            const result = n * m;
+            if (result > 100) {
+            resolve(result)
+            }else {
+            reject("resultat trop petit " + result);
+            }
+            });
+            }
+
+            console.clear();
+            console.log("test 1 : 30 * 9");
+            calcul(30, 9).then((res)=>{
+            console.log(res);
+            }).catch((err) =>{
+            console.error(err);
+            });
+
+
+            console.log("test 2 : 3 * 9");
+            calcul(3, 9).then((res)=>{
+            console.log(res);
+            }).catch((err) =>{
+            console.error(err);
+            });
+
+            ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            Javascript Async / Wait
+            --------------------------------
+            Le resultat de l'exemple précédent :
+            test 1 : 30 * 9
+            test 2 : 3 * 9
+            270
+            resultat trop petit 27
+            -----------------------------------
+            Alors c'est pas notre cas
+            La sol du probleme
+            const calcul = async (n, m) => {
+            //declare & return Promise
+            return new Promise((resolve, reject)=>{
+            const result = n * m;
+            if (result > 100) {
+            resolve(result)
+            }else {
+            reject("resultat trop petit " + result);
+            }
+            });
+            }
+
+            (async () => {
+            console.clear();
+            console.log("test 1 : 30 * 9");
+            await calcul(30, 9).then((res)=>{
+            console.log(res);
+            }).catch((err) =>{
+            console.error(err);
+            });
+            console.log("test 2 : 3 * 9");
+            await calcul(3, 9).then((res)=>{
+            console.log(res);
+            }).catch((err) =>{
+            console.log(err);
+            });
+            })()
+
+            ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            Python
+            Get file propertise
+            import os
+            import time
+
+            today = time.strftime("%Y-%m-%d")
+            print(today)
+            t = time.strptime('Wed Sep 19 14:55:02 2018')
+            t = time.strptime('Mon Oct 18 13:19:27 2021')
+            print(t)
+            print(time.strftime('%Y-%m-%d', t))
+
+            print("*********************************************************")
+            file = 'D:\\sandbox\\PyExtractor\\Main\\data\\download\\enCan\\uscompanydata_CAN.zip'
+            print('File :',file)
+            t = time.strptime(time.ctime(os.path.getatime(file)))
+            d = time.strftime('%Y-%m-%d', t)
+            print('Access time :', d )
+            t = time.strptime(time.ctime(os.path.getmtime(file)))
+            d = time.strftime('%Y-%m-%d', t)
+            print('Modiffed time :', d)
+            t= time.strptime(time.ctime(os.path.getctime(file)))
+            d = time.strftime('%Y-%m-%d', t)
+            print('Change time :', d)
+            s = os.path.getsize(file)
+            print('Size :', s)
+            ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            Désactiver les mjr de windows
+            https://www.cleverfiles.com/howto/disable-update-windows-10.html
+            sol 1- Désactiver : Windows Update service
+            sol 2- gpedit.msc
+            Computer Configuration -> Administrative Templates -> Windows Components
+            -> Windows Update -> Configure Automatic Updates
+            dble clique et désactive
+            puis redémarrer le sys
+            ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            How to select data from other server without linked server
+            How to use OPENROWSET
+            select [Name], [Address], [City], [Province], [SicCode], [Industry], [PostalCode], [Phone], [Fax],
+            [Contact], [Title],[EmployeeCode], [EmployeeCount],[AnnualSales], [dSrcUpdate], [dUpdate], [sOtherContact]
+            from
+            OPENROWSET('ADsDSOObject',--SQLNCLI SQLOLEDB --MSOLAP
+            'Server=45.35.4.15, 1092;Uid=yves;PWD=tsthe*97;
+            database=[zext_cie];
+            Trusted_Connection=yes;', --Persist Security Info=Yes
+            'select top 25000 * from [zext_cie].[noffi_ca].[tCieData]') as a
+
+            ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            CSS perfect responsive with flex
+            <style>
+                h1 {
+                    font-size: 5vw;
+                }
+
+                .box {
+                    display: flex;
+                    flex-flow: row wrap;
+                    /*flex-direction:column-reverse;*/
+                    flex-basis: 900px;
+                }
+
+                .it {
+                    border: 1px solid red;
+                    /*margin: 5px;*/
+                    flex-basis: 300px;
+                    flex: 1 1 0;
+                    font-size: 4.547vw;
+                }
+
+                .it1 {
+                    flex: 1 1 0;
+                    /* flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0px; */
+                }
+
+
+                .it2 {
+                    flex: 1 1 50px;
+                }
+
+
+                .it3 {
+                    flex: 1.5 1 0;
+                }
+            </style>
+            </head>
+
+            <body>
+                <h1>Flexible Boxes and font-size</h1>
+                <div class="box">
+                    <div class="it it1">One</div>
+                    <div class="it it2">Two</div>
+                    <div class="it it3">Three</div>
+                </div>
+
+                ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                How to use media https://www.youtube.com/watch?v=5sC1y6gXaeU
+                /* max-width, si l'écran est inf ou égal alors {...} */
+                /* max-width = desktop-first */
+                /* min-width, si l'écran est supérieur ou égal, alors {...} */
+                /* min-width = mobile-first */
+                /* all, print: printer, screen all screen type, speech */
+                @media screen and (max-width: 800px) {
+                .menu {
+                flex-direction: column;
+                height: auto;
+                }
+                .item {
+                height: 50px;
+                }
+                }
+                /* lier les deux */
+                @media screen and (max-width: 1000px) and (min-width: 800px) {
+                body {
+                color: red;
+                }
+                }
+                ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                Create site web on gitHub
+                https://www.youtube.com/watch?v=hNRxn5sKOdE
+                ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                css media
+
+                @media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
+                @media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+                }
+                @media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or
+                854x480 phones */ }
+                @media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+                @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+                @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+                ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                do responsive with display: grid;
+                look layout on mm count codepen: https://codepen.io/trending
+                user khali_dou; pw : chkh75
+                look this tutorial https://www.youtube.com/watch?v=OtpDP8k-2iM
+                ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                css responsive
+                Grid layout vs Flexbox
+                - The css Grid layout is a two-dimensional grid based layout with rows and columns
+                it is useful in creating more complex and organized layout
+                - The css Flexbox is a one-dimensional layout it useful in allocating and aligning the space among items
+                in grid container
+                Flex layout makes it easer to desing and build responsive pages without using a lot of float and
+                position properties in our css code
+
+                ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+
+
+
+
+
+
+
+
+            </body>
 
 </html>
